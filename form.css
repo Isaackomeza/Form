@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
+body{
+	background: url("gacopaworkshop.jpg");
+	background-size: cover;
+}
+h1{
+	font-size: 50px;
+}
+
+.main{
+	
+	color: white;
+	padding: 5% 15% 0% 15%;
+	font-family: 'Neuton', serif;
+	font-size: 20px;
+}
+body::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 221%;
+	width: 100%;
+	background-color: #2B86E1;
+	opacity: 0.6;
+	z-index: -1;
+}
+.form{
+	background-color: #2E4053;
+	opacity: 0.7;
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 6px;
+	z-index: 1;
+}
+#content{
+	width: 90%;
+	margin: 0 auto;
+	padding: 3%;
+	
+}
+input{
+	font-family: 'Neuton', serif;
+	font-size: 20px;
+}
+textarea{
+	width: 88%;
+	border-radius: 6px;
+	padding-left: 20px;
+	padding-top: 10px;
+	margin-top: 10px;
+	font-family: 'Neuton', serif;
+}
+.header{
+	text-align: center;
+	margin-bottom: 50px;
+	}
+.wide-box{
+	height: 35px;
+	width: 88%;
+	border-radius: 6px;
+	border: 0;
+    padding-left: 20px;
+	margin-top: 10px;
+	}
+.moderate-box{
+	height: 35px;
+	width: 90.5%;
+	border-radius: 6px;
+	border: 0;
+	padding-left: 20px;
+	margin-top: 10px;
+}
+
+#button:hover{
+	animation-name: colorful;
+	animation-duration: 300ms;
+	animation-fill-mode: forwards;
+}
+
+@keyframes colorful{
+	
+	100%{
+		background-color: blue;
+	}
+}

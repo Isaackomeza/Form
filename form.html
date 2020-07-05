@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta  charset="utf-8">
+		<title>Application Form</title>
+		<link href="form.css" rel="stylesheet">
+	</head>
+	
+	<body>
+		<div class="main">
+			
+			<div class="header">
+				<h1><b>Membeship Application Form </b></h1>
+				<p>Dear Applicant Thank you For Taking your Time to Fill This Form</p>
+			</div>
+			
+			<div class="form">
+				<div id="content">
+					<form>
+						<label>First Name</label><br/>
+						<input class="wide-box" type="text" required placeholder="Enter Your First Name" title="First Name"><br/><br/>
+						<label>Last Name</label><br/>
+						<input class="wide-box" type="text" required placeholder="Enter Your Last Name" title="Last Name"><br/><br/>
+						<label>E-Mail</label><br/>
+						<input class="wide-box" type="email" required placeholder="Enter Your E-Mail" title="E-Mail"><br/><br/>
+						<label cols="130" rows="20" id="age">Age(optional)</label><br/>
+						<input class="wide-box" type="number" min="20" max="30" placeholder="Enter Your Age" title="Age"><br/><br/>
+						<label>What is Your Current Occupation?</label><br/>
+						<select class="moderate-box">
+							<optgroup label="Occupation">
+								<option>Student</option><br/>
+								<option>Full-Time Job</option><br/>
+								<option>Self-Employed</option><br/>
+								<option>Prefer Not to Say</option><br/>
+							</optgroup>
+						</select><br/><br/>
+						<label>How did you Hear About Us?</label><br/><br/>
+							<input type="radio">Social Media<br/>
+							<input type="radio">Friend<br/>
+							<input type="radio">Workshop<br/>
+							<input type="radio">Other<br/><br/>
+						<label>What is your Favorite Leisure(select all that apply)</label><br/><br/>
+							<input type="checkbox">Sport<br/>
+							<input type="checkbox">Movies<br/>
+							<input type="checkbox" checked>Music<br/>
+							<input type="checkbox">Chatting<br/>
+							<input type="checkbox">Reading<br/>
+							<input type="checkbox">Swimming<br/><br/>
+							<label>Tell us why you are interested to apply?</label><br/>
+							<textarea placeholder="Write Your Comment Here" cols="80" rows="7"></textarea><br/><br/>
+							
+							<input class="moderate-box" id="button" type="submit" value="Submit">
+					</form>
+				</div>
+			</div>
+			
+			
+		</div>
+	</body>
